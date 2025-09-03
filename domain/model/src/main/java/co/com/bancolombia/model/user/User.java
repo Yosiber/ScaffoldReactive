@@ -1,8 +1,6 @@
 package co.com.bancolombia.model.user;
 import lombok.*;
 
-
-
 @Data
 public class User {
     private String id;

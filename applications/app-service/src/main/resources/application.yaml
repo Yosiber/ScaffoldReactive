@@ -5,6 +5,13 @@ spring:
     name: "NameProject"
   devtools:
     add-properties: false
+  r2dbc:
+    url:
+    username:
+    password:
+  sql:
+    init:
+      mode: always
   h2:
     console:
       enabled: true
